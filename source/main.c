@@ -33,6 +33,14 @@ void switch_urls(Urls *urls, u32 keys) {
 
 int main(int argc, char *argv[]) {
     gfxInitDefault();
+
+    ndmuInit();
+	hidInit();
+	aptInit();
+	frdInit();
+	frdaInit();
+	actaInit();
+
     consoleInit(GFX_TOP, NULL);
 
     Urls current_urls;
@@ -62,6 +70,12 @@ int main(int argc, char *argv[]) {
         gfxSwapBuffers();
     }
 
+    actaExit();
+	frdaExit();
+	frdExit();
+	aptExit();
+	hidExit();
+	ndmuExit();
     gfxExit();
     return 0;
 }
