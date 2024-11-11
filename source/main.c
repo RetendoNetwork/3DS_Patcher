@@ -50,7 +50,9 @@ int main(int argc, char *argv[]) {
         u32 keys = hidKeysDown();
 
         // Press START for exit the app
-        if (keys & KEY_START) break;
+        if (keys & KEY_START) {
+            break;
+        }
 
         switch_urls(&current_urls, keys);
 

@@ -3,6 +3,8 @@
 #include <3ds.h>
 #include <stdio.h>
 #include <string.h>
+#include "acta.h"
+#include "frda.h"
 
 typedef struct {
     char url_1[256];

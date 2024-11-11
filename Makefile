@@ -42,7 +42,7 @@ GFXBUILD	:=	$(BUILD)
 #GFXBUILD	:=	$(ROMFS)/gfx
 
 APP_TITLE		:= Retendo Network Patcher
-APP_DESCRIPTION	:= Swip Nintendo Service to Retendo Service.
+APP_DESCRIPTION	:= Swipe Nintendo Service to Retendo Service.
 APP_AUTHOR		:= cedkeChat (Retendo Network)
 
 #---------------------------------------------------------------------------------
