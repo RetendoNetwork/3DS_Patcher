@@ -9,4 +9,5 @@
 typedef struct {
     char url_1[256];
     char url_2[256];
-} Urls;
+    char url_3[256];
+} URLs;
